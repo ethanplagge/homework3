@@ -1,0 +1,21 @@
+.leader-wrapper{
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .leader-image{
+    height: 90%;
+    width: 40%;
+    background-image: url(../images/yorgo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .leader-text{
+    height: 100%;
+    width: 50%;
+  }
+}

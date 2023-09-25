@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  height: 35px;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav .logo {
+  height: 60px;
+  width: 150px;
+  background-image: url(../images/Logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav .frozen-pizza {
+  height: 60px;
+  width: 200px;
+  background-color: #333;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .frozen-pizza p {
+  color: #fff;
+  font-size: 20px;
+  height: 50%;
+  width: 80%;
+  text-align: center;
+}
+nav .delivery {
+  height: 60px;
+  width: 200px;
+  background-color: rgb(151, 12, 12);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .delivery p {
+  color: #fff;
+  font-size: 20px;
+  height: 50%;
+  width: 80%;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.home-wrapper {
+  min-height: 100%;
+  width: 100%;
+  background-color: #e2e1d6;
+  margin-top: 20px;
+}
+.home-wrapper .home-info {
+  height: 275px;
+  width: 75%;
+  margin: 0 auto;
+}
+.home-wrapper .home-info h1 {
+  text-align: center;
+  color: rgb(151, 12, 12);
+  font-size: 60px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.home-wrapper .home-info p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home-wrapper .home-info .icon-wrapper {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-wrapper .home-info .icon-holder {
+  height: 100%;
+  width: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.home-wrapper .home-info .icon-holder .icon-dining {
+  height: 50%;
+  width: 100%;
+  background-image: url(../images/Dining.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-wrapper .home-info .icon-holder .icon-delivery {
+  height: 50%;
+  width: 100%;
+  background-image: url(../images/Dining.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-wrapper .home-info .icon-holder .icon-pickup {
+  height: 50%;
+  width: 100%;
+  background-image: url(../images/Pickup.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-wrapper .home-info .icon-holder .icon-patio {
+  height: 50%;
+  width: 100%;
+  background-image: url(../images/Patio.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-wrapper .home-info .icon-holder .icon-fullbar {
+  height: 50%;
+  width: 100%;
+  background-image: url(../images/FullBar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-wrapper .home-info .icon-holder p {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+.home-wrapper .hero {
+  height: 300px;
+  width: 400px;
+  margin: 20px auto;
+  background-image: url(../images/Giordanos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.menus-container {
+  height: 700px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  background-color: purple;
+}
+.menus-container .ziti {
+  height: 100%;
+  width: 50%;
+  background-image: url(../images/ziti.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menus-container .garlic {
+  height: 100%;
+  width: 50%;
+  background-image: url(../images/garlic.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cater-wrapper {
+  height: 800px;
+  width: 80%;
+  margin: 0 auto;
+}
+.cater-wrapper h1 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.cater-wrapper .paragraph-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.cater-wrapper h2 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.cater-wrapper .features {
+  margin: 0 auto;
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/specialities.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gift-card {
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/gift.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.paragraph-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.leader-wrapper {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leader-wrapper .leader-image {
+  height: 90%;
+  width: 40%;
+  background-image: url(../images/yorgo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.leader-wrapper .leader-text {
+  height: 100%;
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #333;
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 20px 20px rgba(0, 0, 0, 0.19);
+}
+footer .list-container {
+  height: 150px;
+  width: 150px;
+}
+footer .list-container h2 {
+  color: #fff;
+}
+footer .list-container p {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */

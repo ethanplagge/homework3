@@ -1,0 +1,91 @@
+.home-wrapper{
+  min-height: 100%;
+  width: 100%;
+ background-color: #e2e1d6;
+ margin-top: 20px;
+  .home-info{
+    height: 275px;
+    width: 75%;
+    margin: 0 auto;
+    h1{
+      text-align: center;
+      color: rgb(151, 12, 12);
+      font-size: 60px;
+      font-weight: bold;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    p{
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .icon-wrapper{
+      height: 130px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .icon-holder{
+      height: 100%;
+      width: 60px;
+      margin-left: 15px;
+      margin-right: 15px;
+      .icon-dining{
+        height: 50%;
+        width: 100%;
+        background-image: url(../images/Dining.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .icon-delivery{
+        height: 50%;
+        width: 100%;
+        background-image: url(../images/Dining.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .icon-pickup{
+        height: 50%;
+        width: 100%;
+        background-image: url(../images/Pickup.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .icon-patio{
+        height: 50%;
+        width: 100%;
+        background-image: url(../images/Patio.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .icon-fullbar{
+        height: 50%;
+        width: 100%;
+        background-image: url(../images/FullBar.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      p{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+      }
+    }
+  }
+  .hero{
+    height: 300px;
+    width: 400px;
+    margin: 20px auto;
+    background-image: url(../images/Giordanos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
